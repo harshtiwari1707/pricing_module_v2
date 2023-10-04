@@ -45,4 +45,4 @@ Welcome to **Pricing Module V2**!
 
 Access the admin page on: http://127.0.0.1:8000/admin/
 
-Access the pricing calculation API on: http://127.0.0.1:8000/pricing_config/calculate_total_price/?total_distance=10&trip_time=59&waiting_time=10&trip_date=2023-08-03 
+Access the pricing calculation API on: http://127.0.0.1:8000/pricing_config/calculate_total_price/?total_distance=15&trip_time=62&waiting_time=15&trip_date=2023-10-04 
