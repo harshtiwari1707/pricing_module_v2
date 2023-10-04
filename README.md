@@ -6,20 +6,20 @@ Welcome to **Pricing Module V2**!
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/pricing_module_v2.git
+    git clone https://github.com/harshtiwari1707/pricing_module_v2.git
     cd pricing_module_v2
     ```
 
-2. (Optional but Recommended) Create and activate a virtual environment:
+2. (Optional) Create and activate a virtual environment:
 
     ```bash
     # Windows
-    python -m venv venv
-    venv\Scripts\activate
+    python -m venv pyenv
+    pyenv\Scripts\activate
 
     # macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
+    python3 -m venv pyenv
+    source pyenv/bin/activate
     ```
 
 3. Install project dependencies:
@@ -43,6 +43,6 @@ Welcome to **Pricing Module V2**!
     python manage.py runserver
     ```
 
-Access the admin page on: http://127.0.0.1:8000/admin/
+Access the admin page at - http://127.0.0.1:8000/admin/
 
-Access the pricing calculation API on: http://127.0.0.1:8000/pricing_config/calculate_total_price/?total_distance=15&trip_time=62&waiting_time=15&trip_date=2023-10-04 
+Access the pricing calculation API at - http://127.0.0.1:8000/pricing_config/calculate_total_price/?total_distance=15&trip_time=62&waiting_time=15&trip_date=2023-10-04 
